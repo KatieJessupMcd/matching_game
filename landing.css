@@ -1,0 +1,45 @@
+.squishy_corgi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: -250px; /* Half the height */
+  margin-left: -250px; /* Half the width */
+  border-radius: 50%;
+}
+
+body {
+  background-color: rgb(214, 145, 165);
+  font-family: 'Concert One', cursive;
+}
+
+.landing_image {
+  text-align: center;
+}
+.link_to_game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: -250px; /* Half the height */
+  margin-left: -250px; /* Half the width */
+}
+
+a:link,
+a:visited {
+  background-color: pink;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: -webkit-xxx-large;
+  border-radius: 10px;
+}
+
+a:hover,
+a:active {
+  background-color: #89d3ed;
+}

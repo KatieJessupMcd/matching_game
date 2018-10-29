@@ -4,28 +4,117 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <title>Matching Game</title>
 </head>
 <body>
-  <button id="button">Start Game</button>
 
+<div class="container"> 
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 text-center">
+      <button id="button"> Play Again!</button>
+        <div id="counter"></div>
+    </div>
+  </div>
+
+  <div class="row"> 
+    <div class="col-sm-3">  
+      <div class="card scene" data-framework="corgi_butt">
+        <img class="card__face card__face--front" src="blue_back.jpg">
+        <img class="card__face card__face--back" src="corgi_butt.jpeg">
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card scene" data-framework="cone_corgi">
+        <img class="card__face card__face--front" src="blue_back.jpg">
+        <img class="card__face card__face--back" src="cone_corgi.jpg">
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card scene" data-framework="corgi_butt">
+        <img class="card__face card__face--front" src="blue_back.jpg">
+        <img class="card__face card__face--back" src="corgi_butt.jpeg">
+      </div>
+    </div>
+
+
+    <div class="col-sm-3">
+      <div class="card scene" data-framework="mermaid_corgi">
+        <img class="card__face card__face--front" src="blue_back.jpg">
+        <img class="card__face card__face--back" src="mermaid_corgi.jpeg">
+      </div>
+    </div>
+
+  <div class="row"> 
+    <div class="col-sm-3">  
+      <div class="card scene" data-framework="scooter_corgi">
+        <img class="card__face card__face--front" src="blue_back.jpg">
+        <img class="card__face card__face--back" src="scooter_corgi.jpeg">
+      </div>
+    </div>
+
+    <div class="col-sm-3">  
+      <div class="card scene" data-framework="sushi_corgi">
+        <img class="card__face card__face--front" src="blue_back.jpg">
+        <img class="card__face card__face--back" src="sushi_corgi.jpeg">
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card scene" data-framework="scooter_corgi">
+        <img class="card__face card__face--front" src="blue_back.jpg">
+        <img class="card__face card__face--back" src="scooter_corgi.jpeg">
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card scene" data-framework="sushi_corgi">
+        <img class="card__face card__face--front" src="blue_back.jpg">
+        <img class="card__face card__face--back" src="sushi_corgi.jpeg">
+      </div>
+    </div>
+
+    <div class="row"> 
+      <div class="col-sm-3">  
+        <div class="card scene" data-framework="wink_corgi">
+          <img class="card__face card__face--front" src="blue_back.jpg">
+          <img class="card__face card__face--back" src="wink_corgi.jpeg">
+        </div>
+      </div>
+
+      <div class="col-sm-3">  
+        <div class="card scene" data-framework="mermaid_corgi">
+          <img class="card__face card__face--front" src="blue_back.jpg">
+          <img class="card__face card__face--back" src="mermaid_corgi.jpeg">
+        </div>
+      </div>  
   
-  <div class="scene scene--card">
-      <div class="card">
-        <div class="card__face card__face--front">front</div>
-        <div class="card__face card__face--back">back</div>
-  </div>
-
-  <div class="scene scene--card">
-      <div class="card">
-        <div class="card__face card__face--front">front</div>
-        <div class="card__face card__face--back">back</div>
-  </div>
-
-
+      <div class="col-sm-3">
+        <div class="card scene" data-framework="wink_corgi">
+          <img class="card__face card__face--front" src="blue_back.jpg">
+          <img class="card__face card__face--back" src="wink_corgi.jpeg">
+        </div>
+      </div>
     
- 
-<script src="matching.js"></script>
+      <div class="col-sm-3">  
+        <div class="card scene" data-framework="cone_corgi">
+          <img class="card__face card__face--front" src="blue_back.jpg">
+          <img class="card__face card__face--back" src="cone_corgi.jpg">
+        </div>
+      </div>
+    </div>
+
+  <script src="matching.js"></script>
 </body>
 </html>
